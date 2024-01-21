@@ -12,7 +12,8 @@ import { useDispatch, useSelector } from 'react-redux';
 import { Navigate, useLocation, useNavigate } from 'react-router-dom';
 import { useNewOrderMutation } from '../redux/api/orderAPI';
 import { resetCart } from '../redux/reducer/cartReducer';
-import { RootState } from "../redux/store";
+
+import { RootState } from '../redux/store';
 import { NewOrderRequest } from '../types/api-types';
 import { responseToast } from '../utils/features';
 
